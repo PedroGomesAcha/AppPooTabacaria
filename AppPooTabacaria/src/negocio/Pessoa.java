@@ -20,6 +20,6 @@ public class Pessoa {
 		
 		
 		
-		return maiorIdade;
+		return 0;
 	}
 }
