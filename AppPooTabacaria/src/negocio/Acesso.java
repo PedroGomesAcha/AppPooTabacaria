@@ -5,6 +5,11 @@ public class Acesso {
 	private String email;
 	private String senha;
 	
+	public Acesso(String usuario, String email, String senha) {
+		this.usuario = usuario;
+		this.email = email;
+		this.senha = senha;
+	}
 	
 	public void mostrar() {
 		
